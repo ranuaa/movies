@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+}
+
+.navigasi {
+    z-index: 999;
+    position: fixed !important;
+    width: 100% !important;
+}
+
+.background-atas {
+    height: 100vh;
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+    background-size: cover;
+}
+
+.bungkus {
+    margin-left: 10% !important;
+    margin-top: 10%;
+    height: 50vh;
+    width: 50vw !important;
+}
+
+.bungkus-genre {
+    background: rgba(15, 239, 253, 0.1);
+    border-radius: 0px 8px;
+    width: fit-content;
+    margin: 0 !important;
+}
+
+.genre {
+    color: #0FEFFD;
+    text-align: center;
+}
+
+
+.tittle{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 64px;
+color: #fff;
+}
+
+
+.deskripsi {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #fff;
+}
+
+.tombol-boss {
+    padding: 16px;
+    background-color: transparent !important;
+    border: 1px solid yellow !important;
+}
+.banner{
+    color: white !important;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+.slider-boss {
+    width: 100vw !important;
+    height: 100vh !important;
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%) !important;
+}
+.gambar-slider {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%)
+!important}
+
+.carousel-caption {
+    position: absolute !important;
+    right: 15% !important;
+    bottom: 10.25rem !important;
+    left: 15% !important;
+    padding-bottom: 0.25rem !important;
+    color: #fff;
+    text-align: left !important;
+    width: 40%;
+    /* background: rgba(0,0,0, .5) */
+}
+
+.rating {
+    color: #0FEFFD
+}
+
+.overlay {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+}
+
+.carousel-indicators button {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+
+.lanjut:hover {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.lanjut {
+    background-color: transparent !important;
+    color: yellow !important;
+    border: 1px solid yellow !important;
+    border-radius: 40px !important;
+    width: 200px;
+    height: 56px;
+}
+.gambar-slider {
+    object-fit: cover;
+}
